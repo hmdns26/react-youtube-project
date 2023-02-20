@@ -8,6 +8,6 @@ const videoList =props=>{
     const renderList =props.videos.map(video=>{
         return <videoItems video={video} />
     })
-    return <div>{renderList}</div>;
+    return <div className="ui relaxed divided list" >{renderList}</div>;
 };
 export default videoList;
